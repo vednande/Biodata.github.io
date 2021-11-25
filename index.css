@@ -1,0 +1,110 @@
+/* *{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;;
+    
+} */
+.container{
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 40px;
+    display: flex;
+} 
+.left{
+    background-color: lightpink;
+    height: 100%;
+    width: 50vh;
+}
+.right{
+    background-color: #f6f6f6;
+    height: 100%;
+    width: 160vh;
+    border-left: 3px solid black;
+}
+h1{
+    text-align: center;
+    font-family: Segoe UI Black;
+    padding-bottom: 20px;
+}
+h2{
+    text-align: center; 
+    /* font-weight: 400; */
+    font-family: Segoe UI Black;
+}
+h3{
+    font-family: Segoe UI Black;
+    /* font-weight: bold; */ 
+}
+img{
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+}  
+span{
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 0px;
+
+}
+.contact{
+    padding-top: 2px;
+    padding-left: 39px;
+    width: 240px;
+    height: 195px;
+}
+.technicalSkills{
+    padding-top: 2px;
+    padding-left: 39px;
+    width: 240px;
+    height: 180px;
+}
+.hobbies{
+    padding-top: 2px;
+    padding-left: 39px;
+    width: 240px;
+    height: 135px;
+}
+.languages{
+    padding-top: 2px;
+    padding-left: 39px;
+    width: 240px;
+    height: 180px;
+}
+.inlineSpan{
+    margin: 0.2px;
+}
+.career{
+    padding-left: 100px;
+    padding-right: 90px;
+    padding-bottom: 6px;
+}
+.education{
+    padding-bottom: 10px;
+}
+.college{
+    padding-left: 100px;
+    float: left;
+    width: 255px;
+    height: 200px;
+}
+.twelve{
+    padding-left: 100px;
+    float: left;
+    width: 255px;
+    height: 200px;
+}
+.tenth{
+    padding-left: 100px;
+    float: left;
+    width: 255px;
+    height: 200px;
+}
+.achieve{
+    padding-left: 75px;
+}
+.social{
+    background-color: black;
+    color: white;
+    height: 94.8px;
+}
