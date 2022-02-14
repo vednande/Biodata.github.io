@@ -1,100 +1,342 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio Data</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Footer Adhyaaya'22</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Cairo:wght@300&family=Kanit:wght@500&family=Mochiy+Pop+P+One&family=Oswald&family=Shippori+Antique+B1&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="feedback.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <div class="photo">
-                <img src="20210302_232514.jpg" alt="Ved Photo">
+    <footer class="footer" id="contact-us">
+        <div class="footer-sections">
+
+            <!-- Adhyaaya main logo -->    
+
+            <div class="logo">
+                <img src="https://ca.adhyaaya.org/assets/img/adhyaaya_logo.png" alt="Logo">
             </div>
-            <div class="contact">
-                <u><h2>Contact</h2></u>
-                <span style="width: 300px;">39, Shree Arjun Park, Beltarodi, Nagpur, Maharashtra</span>
-                <span>Phone Number: <a href="tel:+919524755711">9524755711</a> </span>
-                <span>E-Mail: <a href="mailto:vednande10@gmail.com">vednande10@gmail.com</a> </span>
+
+            <!-- Icons part 2  --> 
+
+            <div class="footer-contact-two" id="icons-two">
+                <div class="mail-two">
+                    <a href="mailto:adhyaaya.gcoen@gmail.com"><i class="fa" target="_blank">&#xf0e0;</i> <p>Enquire here </p></a>
+                </div>   
+                <div class="yt-two">
+                    <a href="https://www.youtube.com/channel/UCQgGGoNJaQRxs5myAZTcbsQ" target="_blank"><i class="fa">&#xf16a;</i> <p>Subscribe us</p></a>
+                </div> 
+                <div class="twitter-two">
+                    <a href="https://twitter.com/Adhyaaya_GCOEN" target="_blank"> <i class="fa">&#xf099;</i> <p>Follow us on twitter</p></a>
+                </div>
+                <div class="linkedin-two">
+                    <a href="https://www.linkedin.com/company/adhyaaya/"  target="_blank"><i class="fa">&#xf08c;</i> <p>Connect us on LinkedIn</p></a>
+                </div>
+                <div class="insta-two">
+                    <a href="https://www.instagram.com/adhyaaya.gcoen/" target="_blank"> <i class="fa">&#xf16d;</i> <p>Follow us on Instagram</p></a>
+                </div> 
             </div>
-            <div class="technicalSkills">
-                <u><h2>Techincal Skills</h2></u>
-                    <ul>
-                    <li>C</li>
-                    <li>HTML / CSS</li>
-                    <li>Java</li>
-                    <li>JavaScript</li> 
-                    <li>Microsoft Word</li>
-                </ul>
-            </div>
-            <div class="hobbies">
-                <u><h2>Hobbies</h2></u>
-                    <ul>
-                        <li>Singing</li>
-                        <li>Tabla</li>
-                        <li>Cricket</li>
-                    </ul>
-            </div>
-            <div class="languages">
-                <u><h2>Languages</h2></u>
-                <ul>
-                    <li>Hindi</li>
-                    <li>English</li>
-                    <li>Marathi</li>
-                </ul>
+
+            <!-- Adhyaaya contains -->
+
+            <div class="footer-grid">
+                <div class="footer-contents">
+
+                    <!-- Map yaha -->
+
+                    <div class="footer-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.5210865220415!2d79.05773931443623!3d21.051840192366956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4be5e617378eb%3A0x682e0bc768d22adb!2sGovernment%20College%20of%20Engineering%20Nagpur!5e0!3m2!1sen!2sin!4v1617731462335!5m2!1sen!2sin" frameborder="0"></iframe>
+                    </div>
+                    
+                    <!-- Contact Us -->
+                    <div class="footer-contact line" id="contact-us-animation" >
+
+                        <h1 >Contact Us
+                            <!-- <div class="ani"></div> -->
+                        </h1> 
+                            <ul> 
+                            <li><a  href="#" class="button" onclick="document.getElementById('termspop4').style.display='block'">Contact info</a></li>
+                            <li><a href="#">Teams </a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <!-- College --> 
+                     
+                    <div class="footer-contact line" id="college">
+                        <h1 >College</h1>
+                        <!-- <div class="ani"></div> -->
+                        
+                        <ul>
+                            <li><a href="#" class="button" id="myBtn"  onclick="document.getElementById('termspop3').style.display='block'">About Us</a></li>
+                            <li><a href="https://www.gcoen.ac.in/" target="_blank">GCOEN</a></li>
+                        </ul>
+
+
+                    </div> 
+
+                    <!-- Support -->
+
+                    <div class="footer-contact line" id="support">
+                        <h1 >Support</h1>
+                        <!-- <div class="ani"></div> -->
+
+                        <ul>
+                            <li><a href="#" class="button"  onclick="document.getElementById('termspop').style.display='block'">Terms & Conditions</a></li>
+                            <li><a href="#" class="button"  onclick="document.getElementById('termspop2').style.display='block'">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Stay Connected -->
+
+                    <div class="footer-contact" id="icons">
+                        <div class="mail" id="transform-icon">
+                            <a href="mailto:adhyaaya.gcoen@gmail.com"><i class="fa" target="_blank">&#xf0e0;</i> Enquire here</a>
+                        </div>   
+                        <div class="yt" id="transform-icon">
+                            <a href="https://www.youtube.com/channel/UCQgGGoNJaQRxs5myAZTcbsQ" target="_blank"><i class="fa">&#xf16a;</i> Subscribe us</a>
+                        </div> 
+                        <div class="twitter" id="transform-icon">
+                            <a href="https://twitter.com/Adhyaaya_GCOEN" target="_blank"> <i class="fa">&#xf099;</i> Follow us on twitter</a>
+                        </div>
+                        <div class="linkedin" id="transform-icon">
+                            <a href="https://www.linkedin.com/company/adhyaaya/"  target="_blank"><i class="fa">&#xf08c;</i> Connect us on LinkedIn</a>
+                        </div>
+                        <div class="insta" id="transform-icon">
+                            <a href="https://www.instagram.com/adhyaaya.gcoen/" target="_blank"> <i class="fa">&#xf16d;</i> Follow us on Instagram</a>
+                        </div> 
+                    </div>
+
+                </div>  
             </div> 
+        </div> 
+    </footer>
+    
+    <footer class="footer-bottom">
+        <div class="copyright">
+            <p> &copy; ADHYAAYA'22 | GCOEN | ALL RIGHTS RESERVED</p>
         </div>
-        <div class="right">
-            <h1>Ved Nande</h1>
-            <img src="pr7.png" style="width: 950px; height: 20px;" alt="">
-            <div class="career" style="line-height: 30px;">
-                <u><h2>Career Objective</h2></u>
-                <b>As a student from 2nd year Government College of Engineering, Nagpur, I am looking forward to learn new things and Technology and improve my skills in Technical Fields. I am also passionate about sports and cultural activites. Talking about Career Objective I want to become a Android Developer and showcase my talent in Android Development with adaption to new skills.</b>
-            </div>
-            <div class="education">
-                <u><h2>Educational Background</h2></u>
-                <div class="college">
-                    <h3>2020 - Current:</h3>
-                    <b>
-                        <p>Bachelor of Technology</p>
-                        <p>Rashtrasant Tukadoji Maharaj Nagpur University (RTMNU)</p>
-                        <p>CGPA: 9.70</p>
-                    </b>
+    </footer>  
+    
+     
+
+    <!-------- Popup Div ---------->
+   <!-- Contact info -->
+   <div class="termspop" id="termspop4">
+    <div class="termspop_content2">
+      <div class="container113" style="text-align: center">
+        <div class="row">
+          <h1 class="heading2">Contact Info</h1>
+        </div>
+        <div class="rowss">
+
+<!-- yahaa kuch bhii kar saktaa hai -->
+          <div class="contact-info">
+
+              <div class="contact-content">
+
+                <div class="contact-info-img">
+                    <img src="contact info.png" alt="">
+                </div> 
+ 
+                <div class="contact-info-content">
+                    <p class="reach-out">
+                        Kindly reach out to us in case of any query.
+                    </p>
+
+                    <div class="contact-one">
+                        <strong>Ujjwal Gupta</strong>
+                        <p>CSE Co-ordinator</p> 
+                        <p><a href="mailto:usgupta@gcoen.ac.in"><i class="fa">&#xf0e0;</i>Mail here</a></p>
+                        <p>
+                            <a href="tel:+7020138347"><i class="fa">&#xf095;</i>+91 7020138347</a>
+                        </p>
+                    </div>
+
+                    <div class="contact-two">
+                        <strong>Yash Bhagat</strong>
+                        <p>Civil Co-ordinator</p>
+                        <p ><a href="mailto:vednande10@gmail.com"> <i class="fa">&#xf0e0;</i>Mail here</a></p>
+                        <p>
+                            <a href="tel:+9075022332"><i class="fa">&#xf095;</i>+91 9075022332</a>
+                        </p>
+                    </div>
                 </div>
-                <div class="twelve">
-                    <h3>2018 - 2020:</h3>
-                    <b>
-                        <p>All India Senior School Certificate Examination (AISSCE)</p>
-                        <p>CBSE</p>
-                        <p>Percentage: 89.4%</p>
-                    </b>
-                </div>
-                <div class="tenth">
-                    <h3>2003 - 2018:</h3>
-                    <b>
-                        <p> All India Secondary School Examination (AISSE)</p>
-                        <p>CBSE</p>
-                        <p>Percentage: 81.2%</p>
-                    </b>
-                </div>
-            </div>
-            <div class="achieve">
-                <u><h2 style="padding-right: 45px;">Achievements</h2></u>
-                <ul style="font-weight: 800; line-height: 40px;">
-                    <li>Qualified Vishaarad Pratham in Tabla - 2021</li>
-                    <li>Gold Medalist at National Level Abacus Competition - 2014</li>
-                    <li>Represented School at State Level Competition in the year 2014-2015</li>
-                </ul>
-            </div>
-            <div class="social" style="padding-left: 20px; padding-top: 20px;">
-                LinkedIn: - <a href="https://www.linkedin.com/in/ved-nande-b86248203/" target="_blank" style="padding-left: 20px; color: aqua;">ved-nande</a> <br>
-                Instagram: - <a href="https://www.instagram.com/vednande/ target="_blank" style="padding-left: 20px; color: aqua;">vednande</a> <br>
-                Twitter: - <a href="https://twitter.com/VedNande2 target="_blank" style="padding-left: 20px; color: aqua;">VedNande2</a> <br>
-                Facebook: - <a href="https://www.facebook.com/ved.nande.7 target="_blank" style="padding-left: 20px; color: aqua;">Ved Nande</a>
+              </div>
+
+
+
             </div>
         </div>
+        <button
+          value="close"
+          class="close"
+          onclick="document.getElementById('termspop4').style.display='none'"
+        >
+          Close
+        </button>
+      </div>
     </div>
-</body> 
-</html> 
+  </div>
+
+
+    <!-- About Us -->
+    <div class="termspop" id="termspop3">
+        <div class="termspop_content2">
+          <div class="container113" style="text-align: center">
+            <div class="row">
+              <img
+                src="gcoen_logo.png"
+                style="
+                  width: 30%;
+                  height: 30%;
+                  margin-right: auto;
+                  margin-left: auto;
+                  padding-bottom: 6%;
+                "
+                alt=""
+              />
+              <h1 class="heading2">GOVERNMENT COLLEGE OF ENGINEERING NAGPUR</h1>
+            </div>
+            <div class="rowss">
+              <h1 class="r123">ABOUT US</h1>
+  
+              <p>
+                ADHYAAYA 2021 is the fourth iteration of the national level
+                technical symposium of Government College of Engineering, Nagpur.
+                Students from all over Maharashtra set their keen eyes on
+                Adhyaaya. Last year, more than 3500 budding technocrats from all
+                across India marked their remarkable presence in Adhyaaya'20. The
+                event consists of various technical, non-technical segments along
+                with workshops on topics spread all over the diverse scopes of
+                engineering. We strive to offer a platform for the student
+                community to develop and showcase their skill sets and technical
+                prowess by presenting them events from model presentations,
+                code-hunts to e-sports and technical workshops. Adhyaaya is
+                considered to be a promising technical fest in Nagpur and an
+                experience to be remembered. So mark your calendars! Adhyaaya 2021
+                begins this 13th of May 2021. We appreciate your presence and our
+                journey together.
+                <br />
+                <br />
+                <strong> Adhyaaya: A Legacy of Infinite Chapters.</strong>
+                <br />
+                <br />
+                <br />
+              </p>
+            </div>
+            <button
+              value="close"
+              class="close"
+              onclick="document.getElementById('termspop3').style.display='none'"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Terms and Conditions   -->
+      <div class="termspop" id="termspop">
+        <div class="termspop_content">
+          <h1>Terms and Conditions</h1>
+          <ol type="A" style="text-align: left" class="t1111">
+            <br /><br />
+            The Terms and Conditions are as follows :
+  
+            <li>
+              1. All proofs submitted by you should be genuine to the fullest
+              extent of your knowledge.
+            </li>
+            <li>
+              2. Certificates will only be provided on successful completion of
+              the tenure.
+            </li>
+            <li>
+              3. You are eligible for the certificate and other incentives only if
+              your profile is complete.
+            </li>
+            <li>
+              4. Adhyaaya, GCOEN holds the right to retract the Ambassadorship
+              from you, or appoint additional ambassadors if your performance is
+              unsatisfactory or if you violate any of the aforementioned terms and
+              conditions.
+            </li>
+            <li>
+              5. Any use, mention or placement of Adhyaaya or GCOE,Nagpur's logo
+              or name (electronic or physical media) on any advertisement, event,
+              notice, brochure, mailer or branding material will be done only
+              after written approval from Adhyaaya and GCOE, Nagpur authorities
+              and as per their norms. This policy applies in perpetuity.
+            </li>
+          </ol>
+          <button
+            value="close"
+            class="close"
+            onclick="document.getElementById('termspop').style.display='none'"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+  
+      <!-- Privacy Policy -->
+      <div class="termspop" id="termspop2">
+        <div class="termspop_content">
+          <h1>PRIVACY POLICY</h1>
+          <ol type="A" style="text-align: left" class="t1111">
+            <br /><br />
+            You have given Adhyaaya, the permission to do the following:
+  
+            <li>
+              1. By using our website, you hereby consent to our privacy policy
+              and agree to its terms.
+            </li>
+            <li>
+              2. Store and process the participants data (such as E-mail ID,
+              photograph, contact number etc.) at each and every possible point
+              for legitimate interests of Adhyaaya.
+            </li>
+            <li>
+              3. Like any other website, Adhyaya’21 uses ‘cookies’. These cookies
+              are used to store information including visitors’ preferences, and
+              the pages on the website that the visitor accessed or visited. The
+              information is used to optimize the users’ experience by customizing
+              our web page content based on visitors’ browser type and/or other
+              information.
+            </li>
+            <li>
+              4. Adhyaaya has no access to control over the cookies that are used
+              by the third-party advertisers.
+            </li>
+            <li>
+              5. Adhyaaya will retain your personal information as long as it is
+              necessary to do so for our legal obligations, resolve disputes, and
+              enforce our policies.
+            </li>
+            <li>
+              6. To send you promotional emails at any point of time within the
+              working hours.
+            </li>
+            <li>
+              7. In case of any mishaps, disputes and third party issues Adhyaaya
+              will not be responsible for the same.
+            </li>
+          </ol>
+          <button
+            value="close"
+            class="close"
+            onclick="document.getElementById('termspop2').style.display='none'"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+
+</body>  
+</html>
